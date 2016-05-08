@@ -162,9 +162,9 @@ MY WORK SECTION
 	height: 1200px;
 	width: 945px;
 	display: block;
-	background-color: #fff;
+	background-color: transparent;
 	border-radius: 5px;
-	z-index: 9999;
+	box-shadow: 0 0 20px #fff, 0 0 12px #ff0000;	
 }
 
 #project-box figure {
@@ -173,6 +173,7 @@ MY WORK SECTION
 	width: 35%;
 	margin: 4% 6.6%;
 	z-index: 9999;
+	color: black;
 }
 
 #my-work-header {
@@ -193,6 +194,7 @@ MY WORK SECTION
 #project-2 {
 	width: 362px;
 	height: 205px;
+	background-color: #fff;
 }
 
 #project-3 {
@@ -228,6 +230,7 @@ MY WORK SECTION
 
 figcaption {
 	line-height: 20px;
+	color: black;
 }
 
 
