@@ -1,0 +1,257 @@
+
+
+html, body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	webkit-font-smoothing: antialiased;
+	background: linear-gradient(#000, #fff, #000);
+}
+
+a {
+	text-decoration: none;
+}
+
+/**********************************
+TOP SECTION
+**********************************/
+nav {
+	text-align: center;
+	height: 100px;
+	width: 100%;
+}
+
+ul {
+	margin-top: 0px;
+}
+
+nav li {
+	display: inline-block;
+	margin-top: 0;
+}
+
+#top-section {
+	color: #fff;
+}
+
+
+
+#about-me {
+	font-size: 28px;
+	font-weight: lighter;
+	color: #fff;
+	margin-right: 250px;
+}
+
+
+
+#name {
+	text-align: center;
+	font-size: 48px;
+
+}
+
+#my-work {
+	font-size: 28px;
+	font-weight: lighter;
+	color: #fff;
+	margin-left: 250px;
+}
+
+
+.nav-links {
+	text-decoration: none;
+	font-family: Arial;
+	color: #fff;
+	text-shadow: 0 0 6px #39ff14, 0 0 10px #fff;
+}
+
+
+.nav-links:hover {
+	color: #000;
+}
+
+.image-box {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#lightbulb {
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 16px;
+	box-shadow: 0 0 20px #fff, 0 0 12px #39ff14;
+}
+
+#hr1 {
+	width: 945px;
+    box-shadow:  0 0 6px #39ff14, 0 0 10px #fff	
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 80px;
+	font-family: Arial;
+	font-weight: lighter;
+	letter-spacing: 0.18em;
+	height: 72px;
+	margin-top: 0;
+	margin-bottom: 36px;
+    text-shadow: 0 0 6px #39ff14, 0 0 10px #fff;
+}
+
+
+#hr2 {
+	width: 945px;
+    box-shadow:  0 0 6px #4d4dff, 0 0 10px #fff
+}
+
+
+
+/**********************************
+ABOUT ME SECTION
+**********************************/
+#about-me-section {
+	color: #000;
+	max-width: 59em;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#about-me-header {
+	text-align: center;
+	font-family: Arial;
+	font-weight: lighter;
+	color: #000;
+}
+
+#denver-pic {
+	margin-top: 60px;
+	text-align: center;
+	width: 947px;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 16px;
+	box-shadow: 0 0 20px #fff, 0 0 12px #4d4dff;
+}
+
+
+#hr3 {
+	width: 945px;
+    box-shadow:  0 0 6px #ff0000, 0 0 10px #fff
+}
+
+/**********************************
+MY WORK SECTION
+**********************************/
+#my-work-section {
+	color: #000;
+	max-width: 59em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#project-box {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 1%;
+	height: 1200px;
+	width: 947px;
+	display: block;
+	background-color: #fff;
+	border-radius: 5px;
+	z-index: 9999;
+}
+
+#project-box figure {
+	text-align: center;
+	float: left;
+	width: 35%;
+	margin: 4% 6.6%;
+	z-index: 9999;
+}
+
+#my-work-header {
+	text-align: center;
+	font-family: Arial;
+	font-weight: lighter;
+	color: #000;
+}
+
+
+
+
+#project-1 {
+	width: 362px;
+	height: 205px;
+}
+
+#project-2 {
+	width: 362px;
+	height: 205px;
+}
+
+#project-3 {
+	width: 362px;
+	height: 205px;
+}
+
+#project-4 {
+	width: 362px;
+	height: 205px;
+}
+
+#project-5 {
+	width: 362px;
+	height: 205px;
+}
+
+#project-6 {
+	width: 362px;
+	height: 205px;
+}
+
+#project-7 {
+	width: 362px;
+	height: 205px;
+}
+
+#project-8 {
+	width: 362px;
+	height: 205px;
+}
+
+
+figcaption {
+	line-height: 20px;
+}
+
+
+
+
+/**********************************
+FOOTER SECTION
+**********************************/
+
+footer {
+	height: 150px;
+	color: cyan;
+}
+
+
+
+
+/*
+
+#39ff14 (hr2)
+
+#ff0000 (hr3)
+
+
+
+
+
