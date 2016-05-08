@@ -162,7 +162,7 @@ MY WORK SECTION
 	height: 1200px;
 	width: 945px;
 	display: block;
-	background-color: #fff;
+	background-color: transparent;
 	border-radius: 5px;
 	box-shadow: 0 0 20px #fff, 0 0 12px #ff0000;	
 }
@@ -194,6 +194,7 @@ MY WORK SECTION
 #project-2 {
 	width: 362px;
 	height: 205px;
+	background-color: #fff;
 }
 
 #project-3 {
