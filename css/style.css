@@ -22,9 +22,7 @@ nav {
 	width: 100%;
 }
 
-ul {
-	margin-top: 0px;
-}
+
 
 nav li {
 	display: inline-block;
@@ -37,11 +35,12 @@ nav li {
 
 
 
-#about-me {
+#about-me-link {
 	font-size: 28px;
 	font-weight: lighter;
 	color: #fff;
 	margin-right: 250px;
+	margin-bottom: 15px;
 }
 
 
@@ -52,13 +51,33 @@ nav li {
 
 }
 
-#my-work {
+#my-work-link {
 	font-size: 28px;
 	font-weight: lighter;
 	color: #fff;
 	margin-left: 250px;
 }
 
+
+#contact-link {
+	font-size: 28px;
+	font-weight: lighter;
+	color: #fff;
+	margin-right: 320px;
+}
+
+#wd {
+	text-align: center;
+	font-size: 48px;
+}
+
+
+#resume-link {
+	font-size: 28px;
+	font-weight: lighter;
+	color: #fff;
+	margin-left: 320px;
+}
 
 .nav-links {
 	text-decoration: none;
@@ -82,6 +101,7 @@ nav li {
 	border-radius: 5px;
 	margin-bottom: 16px;
 	box-shadow: 0 0 20px #fff, 0 0 12px #39ff14;
+	opacity: 0.8;
 }
 
 #hr1 {
@@ -184,7 +204,7 @@ MY WORK SECTION
 }
 
 
-
+/* ----- EACH PROJECT IN PORTFOLIO -----*/
 
 #project-1 {
 	width: 362px;
@@ -194,7 +214,6 @@ MY WORK SECTION
 #project-2 {
 	width: 362px;
 	height: 205px;
-	background-color: #fff;
 }
 
 #project-3 {
