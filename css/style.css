@@ -273,6 +273,9 @@ footer {
 
 }
 
+#align-nav {
+	text-align: center;
+}
 
 #footer-icons {
 	display: inline-block;
