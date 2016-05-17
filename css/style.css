@@ -117,8 +117,10 @@ ABOUT ME SECTION
 	line-height: 140%;
 	font-size: 25px;
 	border-radius: 5px;
+
 	box-shadow: 0 0 20px #fff, 0 0 12px #39ff14;
 	padding: 15px;
+	width: 917px;
 }
 
 #about-me-header {
