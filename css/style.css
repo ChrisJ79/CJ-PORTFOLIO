@@ -1,149 +1,124 @@
-
+​
+test-port CSS:
+​
+* {
+	margin:0;
+	padding:0;
+}
 
 html, body {
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0;
-	padding: 0;
-	webkit-font-smoothing: antialiased;
-	background: linear-gradient(#000, #bababa, #000);
-
+	background: linear-gradient(#000, #c6c6c6, #000); 
 
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   margin: 0 auto;
 }
 
-
+h6 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 /**********************************
 TOP SECTION
 **********************************/
-nav {
-	text-align: center;
-	height: 100px;
-	width: 100%;
+
+#top-nav {
+	margin-top: 25px;
 }
+
+#name-wd {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 76px;
+	letter-spacing: 15px;
+	color: #fff;
+	text-shadow: 0 0 6px #39ff14, 0 0 10px #fff;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+ul {
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+} 
 
 a {
 	text-decoration: none;
-}
-
-
-nav li {
-	display: inline-block;
-	margin-top: 0;
-}
-
-#top-section {
 	color: #fff;
 }
 
-
-
-#about-me-link {
-	font-size: 28px;
-	font-weight: lighter;
-	color: #fff;
-	margin-right: 250px;
-	margin-bottom: 15px;
+p {
+	margin: 0px;
+	padding-left: 54px;
+	padding-right: 54px;
 }
 
-
-
-#name {
-	text-align: center;
-	font-size: 48px;
-
+a:hover {
+	color: #000;
 }
 
-#my-work-link {
-	font-size: 28px;
-	font-weight: lighter;
-	color: #fff;
-	margin-left: 250px;
-}
-
-
-#contact-link {
-	font-size: 28px;
-	font-weight: lighter;
-	color: #fff;
-	margin-right: 320px;
-}
-
-#wd {
-	text-align: center;
-	font-size: 48px;
-	margin: 1px;
-}
-
-
+#about-me-link,
+#my-work-link,
+#contact-link,
 #resume-link {
-	font-size: 28px;
-	font-weight: lighter;
-	color: #fff;
-	margin-left: 292px;
-}
-
-.nav-links {
-	text-decoration: none;
+	align-items: center;
+	justify-content: center;
 	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
 	color: #fff;
 	text-shadow: 0 0 6px #39ff14, 0 0 10px #fff;
 }
 
+.hr1 {
+	width: 945px;
+	box-shadow: 0 0 6px #39ff14, 0 0 10px #fff
+}
 
-.nav-links:hover {
-	color: #000;
+.hr2 {
+	width: 945px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 0 0 6px #39ff14, 0 0 10px #fff
 }
 
 .image-box {
 	text-align: center;
-	margin-bottom: 50px;
 }
 
 #lightbulb {
-	text-align: center;
 	border-radius: 5px;
-	margin-bottom: 16px;
 	box-shadow: 0 0 20px #fff, 0 0 12px #39ff14;
 	opacity: 0.8;
 }
-
-.hr1 {
-	width: 945px;
-    box-shadow: 0 0 6px #39ff14, 0 0 10px #fff	
-}
-
-
-h2 {
-	text-align: center;
-	font-size: 80px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: lighter;
-	letter-spacing: 0.18em;
-	height: 72px;
-	margin-top: 0;
-	margin-bottom: 36px;
-    text-shadow: 0 0 6px #39ff14, 0 0 10px #fff;
-}
-
-
 
 
 /**********************************
 ABOUT ME SECTION
 **********************************/
 #about-me-section {
-
 	max-width: 59em;
 	margin-left: auto;
 	margin-right: auto;
+}
 
+#about-me-section p {
+	background-color: #add8e6;
+	line-height: 140%;
+	font-size: 25px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px #fff, 0 0 12px #39ff14;
+	padding: 15px;
 }
 
 #about-me-header {
@@ -153,17 +128,18 @@ ABOUT ME SECTION
 	font-weight: lighter;
 	color: #fff;
 	text-shadow: 0 0 6px #39ff14, 0 0 10px #fff;
+	text-decoration: underline;
 }
 
 #denver-pic {
-	margin-top: 60px;
+
 	text-align: center;
 	width: 947px;
 	text-align: center;
 	border-radius: 5px;
-	margin-bottom: 16px;
 	box-shadow: 0 0 20px #fff, 0 0 12px #39ff14;
 }
+
 
 
 
@@ -180,8 +156,6 @@ MY WORK SECTION
 #project-box {
 	display: flex;
 	align-items: center;
-	margin: 0;
-	padding: 1%;
 	height: 1200px;
 	width: 945px;
 	display: block;
@@ -206,6 +180,7 @@ MY WORK SECTION
 	font-weight: lighter;
 	color: #fff;
 	text-shadow: 0 0 6px #39ff14, 0 0 10px #fff;
+	text-decoration: underline;
 }
 
 
@@ -258,8 +233,6 @@ figcaption {
 }
 
 
-
-
 /**********************************
 FOOTER SECTION
 **********************************/
@@ -268,9 +241,7 @@ footer {
 	text-align: center;
 	height: 150px;
 	width: 100%;
-	color: cyan;
 	padding-top: 100px;
-
 }
 
 #align-nav {
@@ -292,11 +263,6 @@ footer {
 
 
 
-/*
-
-#39ff14 (hr2)
-
-#ff0000 (hr3)
 
 
 
